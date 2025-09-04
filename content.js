@@ -33,7 +33,7 @@ function showTranslationPopup(text) {
   `;
 
   popup.innerHTML = `
-    <div style="margin-bottom: 15px;">
+    <div style="margin-bottom: 15px;display:none;">
       <strong>Original Text:</strong>
       <p style="margin: 8px 0; padding: 8px; background: #f8f9fa; border-radius: 4px; color: black;max-height:300px;overflow-y:scroll;">${escapeHtml(text)}</p>
     </div>

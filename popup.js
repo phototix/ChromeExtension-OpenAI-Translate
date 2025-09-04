@@ -57,7 +57,7 @@ function showTranslationSection(text) {
   const mainContent = document.querySelector('body');
   console.log("I am here!");
   mainContent.innerHTML += `
-    <div style="margin-top: 20px; border-top: 1px solid #ddd; padding-top: 20px;">
+    <div style="margin-top: 20px; border-top: 1px solid #ddd; padding-top: 20px;display:none;">
       <h4 style="color: black;">Translate Selected Text</h4>
       <div style="margin-bottom: 15px;">
         <strong style="color: black;">Original Text:</strong>
