@@ -35,7 +35,7 @@ function showTranslationPopup(text) {
   popup.innerHTML = `
     <div style="margin-bottom: 15px;">
       <strong>Original Text:</strong>
-      <p style="margin: 8px 0; padding: 8px; background: #f8f9fa; border-radius: 4px; color: black;">${escapeHtml(text)}</p>
+      <p style="margin: 8px 0; padding: 8px; background: #f8f9fa; border-radius: 4px; color: black;max-height:300px;overflow-y:scroll;">${escapeHtml(text)}</p>
     </div>
     <div style="margin-bottom: 15px;">
       <label for="target-language" style="display: block; margin-bottom: 5px; font-weight: bold; color: black;">Translate to:</label>
@@ -51,7 +51,7 @@ function showTranslationPopup(text) {
     </button>
     <div id="result" style="margin-top: 15px; display: none;">
       <strong style="color: black;">Translation:</strong>
-      <p id="translation-result" style="margin: 8px 0; padding: 8px; background: #e8f5e8; border-radius: 4px; color: black;"></p>
+      <p id="translation-result" style="margin: 8px 0; padding: 8px; background: #e8f5e8; border-radius: 4px; color: black;max-height:300px;overflow-y:scroll;"></p>
     </div>
     <div id="error" style="margin-top: 15px; display: none; color: #dc3545;"></div>
     <button id="close-btn" style="position: absolute; top: 5px; right: 5px; background: none; border: none; font-size: 18px; cursor: pointer; color: black;">×</button>
