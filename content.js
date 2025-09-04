@@ -27,8 +27,8 @@ function showTranslationPopup(text) {
     padding: 20px;
     z-index: 10000;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 600px;
+    max-width: 800px;
     color: black; /* Ensure text color */
   `;
 
