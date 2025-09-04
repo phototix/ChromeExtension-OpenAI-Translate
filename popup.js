@@ -60,7 +60,7 @@ function showTranslationSection(text) {
       <h4 style="color: black;">Translate Selected Text</h4>
       <div style="margin-bottom: 15px;">
         <strong style="color: black;">Original Text:</strong>
-        <p style="margin: 8px 0; padding: 8px; background: #f8f9fa; border-radius: 4px; color: black;">${escapeHtml(text)}</p>
+        <p style="margin: 8px 0; padding: 8px; background: #f8f9fa; border-radius: 4px; color: black;max-height:300px;overflow-y:scroll;">${escapeHtml(text)}</p>
       </div>
       <div style="margin-bottom: 15px;">
         <label for="popup-target-language" style="color: black;">Translate to:</label>
@@ -76,7 +76,7 @@ function showTranslationSection(text) {
       </button>
       <div id="popup-result" style="margin-top: 15px; display: none;">
         <strong style="color: black;">Translation:</strong>
-        <p id="popup-translation-result" style="margin: 8px 0; padding: 8px; background: #e8f5e8; border-radius: 4px; color: black;"></p>
+        <p id="popup-translation-result" style="margin: 8px 0; padding: 8px; background: #e8f5e8; border-radius: 4px; color: black;max-height:300px;overflow-y:scroll;"></p>
       </div>
       <div id="popup-error" style="margin-top: 15px; display: none; color: #dc3545;"></div>
     </div>
